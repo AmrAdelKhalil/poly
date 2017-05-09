@@ -55,6 +55,7 @@ class HomeIndex extends React.Component {
             <ul className="bookEntryList">
               {this.renderBooks()}
             </ul>
+            <p className="loadMore" href="">Load more</p>
           </div>
           {this.renderCreateBookButton()}
       </div>

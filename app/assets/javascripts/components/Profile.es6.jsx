@@ -244,6 +244,7 @@ class Profile extends React.Component {
               <ul className="bookEntryList">
                 {this.renderAllBooks()}
               </ul>
+              <a className="loadMore" href="">Load more</a>
             </div>
             {this.renderCreateBookButton()}
           </div>
