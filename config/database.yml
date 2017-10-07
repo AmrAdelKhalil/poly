@@ -24,7 +24,12 @@ default: &default
 development:
   <<: *default
   database: poly_development
-
+  database: poly_development
+  adapter: postgresql
+  encoding: UTF8
+  host: localhost
+  username: postgres
+  password: 'amradel'
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
